@@ -1,0 +1,6 @@
+framework module Pods_RNLineGradientUITests {
+  umbrella header "Pods-RNLineGradientUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

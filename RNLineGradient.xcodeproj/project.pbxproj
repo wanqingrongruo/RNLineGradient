@@ -10,6 +10,7 @@
 		0DB3E4E92BFCAF563587D64A /* Pods_RNLineGradientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DBB281654FFED8C2D8ED6F /* Pods_RNLineGradientUITests.framework */; };
 		22831AF2B185DADF57B99E9D /* Pods_RNLineGradient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D30BB1215CF858595D50AF7 /* Pods_RNLineGradient.framework */; };
 		860D54422DE2B861150033E8 /* Pods_RNLineGradientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE006027D08B628F3A3B139 /* Pods_RNLineGradientTests.framework */; };
+		D87E78091EF375290052D9FC /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E78081EF375290052D9FC /* LineChart.swift */; };
 		E042DA8A1EF26F7D00654CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042DA891EF26F7D00654CAA /* AppDelegate.swift */; };
 		E042DA8C1EF26F7D00654CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042DA8B1EF26F7D00654CAA /* ViewController.swift */; };
 		E042DA8F1EF26F7D00654CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E042DA8D1EF26F7D00654CAA /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		78FB02391ED8BA6CC965D895 /* Pods-RNLineGradientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLineGradientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNLineGradientTests/Pods-RNLineGradientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE87DFEC602A2D0E4729D8EA /* Pods-RNLineGradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLineGradient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNLineGradient/Pods-RNLineGradient.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE006027D08B628F3A3B139 /* Pods_RNLineGradientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNLineGradientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E78081EF375290052D9FC /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 		E042DA861EF26F7D00654CAA /* RNLineGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNLineGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E042DA891EF26F7D00654CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E042DA8B1EF26F7D00654CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		E042DA881EF26F7D00654CAA /* RNLineGradient */ = {
 			isa = PBXGroup;
 			children = (
+				D87E78081EF375290052D9FC /* LineChart.swift */,
 				E042DA891EF26F7D00654CAA /* AppDelegate.swift */,
 				E042DA8B1EF26F7D00654CAA /* ViewController.swift */,
 				E042DA8D1EF26F7D00654CAA /* Main.storyboard */,
@@ -451,6 +454,7 @@
 			files = (
 				E042DA8C1EF26F7D00654CAA /* ViewController.swift in Sources */,
 				E042DA8A1EF26F7D00654CAA /* AppDelegate.swift in Sources */,
+				D87E78091EF375290052D9FC /* LineChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
